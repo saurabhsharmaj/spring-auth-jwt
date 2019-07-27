@@ -1,4 +1,4 @@
-package com.marcosbarbero.lab.sec.oauth.jwt.config.security;
+package com.mir.lab.sec.oauth.jwt.config.security;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.DelegatingPasswordEncoder;

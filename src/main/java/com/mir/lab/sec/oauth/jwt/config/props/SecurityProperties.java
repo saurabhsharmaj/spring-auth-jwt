@@ -1,4 +1,4 @@
-package com.marcosbarbero.lab.sec.oauth.jwt.config.props;
+package com.mir.lab.sec.oauth.jwt.config.props;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.core.io.Resource;

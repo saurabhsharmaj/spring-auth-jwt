@@ -1,4 +1,4 @@
-package com.marcosbarbero.lab.sec.oauth.jwt;
+package com.mir.lab.sec.oauth.jwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

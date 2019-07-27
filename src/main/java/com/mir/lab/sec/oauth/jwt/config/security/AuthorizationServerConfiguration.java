@@ -1,6 +1,6 @@
-package com.marcosbarbero.lab.sec.oauth.jwt.config.security;
+package com.mir.lab.sec.oauth.jwt.config.security;
 
-import com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties;
+import com.mir.lab.sec.oauth.jwt.config.props.SecurityProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
