@@ -17,9 +17,21 @@ public class UserController {
         return ResponseEntity.ok(principal);
     }
 
-    @GetMapping("/all")
+    @GetMapping("/user")
     @PreAuthorize("hasRole('ROLE_USER')")
-    public ResponseEntity<String> get() {    	
-        return ResponseEntity.ok("TODO: Implement later to get userlist.");
+    public ResponseEntity<String> getUser() {    	
+        return ResponseEntity.ok("TODO: Only User can access.");
+    }
+    
+    @GetMapping("/guest")
+    @PreAuthorize("hasRole('ROLE_GUEST')")
+    public ResponseEntity<String> getGUEST() {    	
+        return ResponseEntity.ok("TODO: only Guest Can access..");
+    }
+    
+    @GetMapping("/any")
+    @PreAuthorize("hasAnyRole('ROLE_USER','ROLE_GUEST')")
+    public ResponseEntity<String> getAny() {    	
+        return ResponseEntity.ok("TODO: User & Guest both can access.");
     }
 }
